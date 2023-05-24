@@ -7,7 +7,6 @@ let checks = document.querySelectorAll(".check")
 let button=document.querySelector(".btn")
 
 button.addEventListener("click",(e)=>{
-    e.preventDefault()
     console.log(other.value);
     console.log(email.value);
     console.log(password.value);
